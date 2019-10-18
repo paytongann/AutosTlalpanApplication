@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#313336"
+    tools:context=".view.NoticeFragment">
+
+
+    <TextView
+        android:id="@+id/tv_notice_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AVISO"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:paddingTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/iv_close_notice"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:src="@drawable/ic_close"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_margin="20dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_notice_title"
+        android:text="AUTOS TLALPAN ES LA AGENCIA DE SEMINUEVOS CON MÁS PRESTIGIO DEL PAÍS Y CON MAS DE 20 AÑOS DE EXPERIENCIA.\n\nDIAGNOSTICO DE AGENCIA (RESPECTIVAMENTE DE SU MARCA)\n\nDAMOS GARANTÍA POR ESCRITO PARA MODELOS DEL 2013 AL 2018.\n\nENTREGAMOS CARNET DE SERVICIOS SELLADOS, CON SERVICIOS REALIZADOS AL DIA. EN AUTOS MODELOS 2013 EN ADELANTE.\nCONTRATOS AUTORIZADOS POR PORFECO\n\nLA DOCUMENTACIÓN DE CADA UNO DE NUESTROS AUTOS SE ENCUENTRA REVISADA Y CERTIFICADA POR LAS AUTORIDADES CORRESPONDIENTES (PGR, ANCA, OCRA, HSCP, REPUVE, AMIS, ETC.) DE LO CUAL ENTREGAMOS EL CERTIFICADO POR ESCRITO.\n\n¿TE GUSTA?… ¡LLÉVATELO!! DESDE EL 30% DE ENGANCHE Y DESDE 12 HASTA 60 MESES** ¡¡¡CON UNA TASA DESDE EL 1.1 % MENSUAL!!!\n\nTE LO ENVIAMOS A CUALQUIÉR PARTE DE LA REPÚBLICA"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:paddingBottom="20dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
